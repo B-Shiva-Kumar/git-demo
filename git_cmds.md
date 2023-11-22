@@ -38,3 +38,10 @@ git log
 
 git revert <commit-hash-ID>
 - this will revert the changes we made with that commit ID
+
+
+git remote -v
+- this command show the repo of the current user (owner)
+
+git remote set-url origin <your-git-repo-url-you-want-to-push>
+- this will remove the current user set your new github repo
