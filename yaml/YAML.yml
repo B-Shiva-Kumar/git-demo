@@ -1,0 +1,47 @@
+
+# YAML
+# YAML - Yet Another Markup Language.
+# extension -> .yaml or .yml
+
+# Key Value
+# Objects
+# Lists
+# List of Objects
+# Multiline comments
+
+
+# Key value
+name : Shiva
+roll.no : 48
+
+# Object
+server : 
+  name : "server name"
+  capacity : 50GB
+  
+
+# Lists
+social_media :
+  - instagram
+  - fb
+  - x (former twitter)
+  - YT
+
+
+# misc
+# multiline string
+testing : |
+   this is
+   multiline
+   string
+  
+# list of objects
+list_of_servers :
+  - server_1 : 
+    name : "ec2"
+    vol : 8GB
+  - server_2 :
+    name : "fargate"
+    vol : 10GB
+
+
